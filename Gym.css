@@ -1,0 +1,115 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:url(Background.jpg);
+    color:white;
+    font-family:'Baloo bhai 2',cursive;
+}
+header{
+    /* border:2px dotted white; */
+}
+.left{
+    position:absolute;
+    /* border:2px solid orange; */
+    display: inline-block;
+    left:10px;
+    top:20px; 
+    display:flex;
+}
+.left img{
+    display:block;
+    width:59px;
+    filter:invert(100%);
+    margin:auto;
+   
+}
+.left div{
+  
+     text-align:center;
+     padding-top:10px;
+     width:50%;
+     line-height: 21px;
+    
+}
+.mid{
+     /* border:2px solid blue; */
+     display:block;
+     width:45%;
+     margin: 31px auto;
+     box-sizing: border-box;
+}
+.navbar{
+    padding:0px;
+    text-align: justify;
+    margin:10px 15px;
+}
+.navbar li{
+    display:inline;
+    width:30%;
+    /* border:2px solid orange; */
+    margin: 24px 31px;
+    
+}
+.navbar li a,.right a{
+   color:white;
+   text-decoration: none;
+   font-size: 20px;
+   padding: 100px 8px;
+   text-align: center;
+}
+.navbar li a:hover,.navbar li a.active{
+    color:grey;
+    text-decoration: underline;
+}
+.right{ 
+    position:absolute;
+    /* border:2px solid orange; */
+    display: inline-block;
+    right:10px;
+    top:26px;
+    
+}
+.btn{
+    margin: 0px 9px;
+    background-color: #121315;
+    color:white;
+    font-size:15px;
+    padding: 7px 9px;
+    border-radius: 29px;
+    font-family:'Baloo bhai 2',cursive;
+    cursor:pointer;
+    
+}
+.btn:hover{
+    background-color: rgb(46, 45, 45);
+    border:none;
+}
+.container{
+    border:3px solid white;
+    border-radius:10px;
+    width:35%;
+    margin: 92px 59px;
+}
+.container p{
+    display:block;
+    width:30%;
+    margin:10px auto;
+    text-align: center;
+}
+.container input{
+    font-family: 'Baloo Bhai 2',cursive;
+    display: block;
+    width:244px;
+    border-radius:20px;
+    /* padding:15px; */
+    margin:12px auto;
+    text-align: center;
+    font-size: 15px;
+}
+.container .btn{
+    display:block;
+    width:104px;
+    margin:25px auto;
+    cursor:pointer;
+
+}
